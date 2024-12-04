@@ -30,24 +30,19 @@
 </ol>
 
 
----
----
----
+----------------------------------------
 
 <h2>The other settings I need to do in my package.json are: </h2>
 <ul>
-    <li>First I change the name of "main" according to my file structure and named it <code>"main": "app.js"</code>.</li>
+    <li>First I changed the name of "main" according to my file structure and named it <code>"main": "app.js"</code>.</li>
     <li>Second I added an extra line just above the <code>"keywords": [], "type": "module"</code></li>
     <li>Third I added "start" "nodemon app.js" just below the "test" to implement programs execution continuously without manual interruption again and again.</li>
   <code>"start": "nodemon app.js"</code>
   </ul>
 
----
----
----
+---------------------------------------------
 
-
-Note:
+<h3 style="color:red">Note:</h3>
 This project is set to use ES modules (ESM), which means that import and export should be used instead of require and module.exports.
 By default, Node.js treats files with the .js extension as ES modules when the "type": "module" field is present in the package.json.
 
