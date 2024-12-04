@@ -21,15 +21,18 @@
 ├── .env
 ├── app.js
 └── package.json 
-
   </pre>
+  <ul>
+    <li>First I defined the model of the Service.js(models/Service.js)</li>
+    <li>Second I created the routes for the API(routes/services.js)</li>
+    <li>Third I setup the app main(app.js)</li>
+  </ul>
 </ol>
 
-5.
 
----First I defined the model of the Service.js(models/Service.js)
----Second I created the routes for the API(routes/services.js)
----Third I setup the app main(app.js)
+---
+---
+---
 
 The other settings I need to do in my package.json are: 
 ---First I change the name of "main" according to my file structure and named it "main": "app.js".
