@@ -1,9 +1,9 @@
 <h1>The steps I have taken during this project:</h1>
 <ol>
   <li>First, I created a directory in my local system.</li>
-  <li>I opened this directory in VS Code and performed the operation "npm init -y"</li>
-  <li>.After that I installed the another packeges such as express, mpngoose , dotenv, and body-parse using the command 
-npm install express mongoose body-parser dotenv.
+  <li>I opened this directory in VS Code and performed the operation <code>npm init -y</code></li>
+  <li>.After that I installed the another packeges such as express, mpngoose , dotenv, and body-parse using the command <br />
+<code>npm install express mongoose body-parser dotenv</code>.
 </li>
   <li>After doing all these things, I set up the mongodB environment.</li>
   <ul>
