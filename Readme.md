@@ -34,11 +34,18 @@
 ---
 ---
 
-The other settings I need to do in my package.json are: 
----First I change the name of "main" according to my file structure and named it "main": "app.js".
----Second I added an extra line just above the "keywords": [], "type": "module"
----Third I added "start" "nodemon app.js" just below the "test" to implement programs execution continuously without manual interruption again and again.
-"start": "nodemon app.js"
+<h2>The other settings I need to do in my package.json are: </h2>
+<ul>
+    <li>First I change the name of "main" according to my file structure and named it <code>"main": "app.js"</code>.</li>
+    <li>Second I added an extra line just above the <code>"keywords": [], "type": "module"</code></li>
+    <li>Third I added "start" "nodemon app.js" just below the "test" to implement programs execution continuously without manual interruption again and again.</li>
+  <code>"start": "nodemon app.js"</code>
+  </ul>
+
+---
+---
+---
+
 
 Note:
 This project is set to use ES modules (ESM), which means that import and export should be used instead of require and module.exports.
