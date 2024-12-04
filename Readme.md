@@ -11,10 +11,9 @@
     <li>Then using string url of this cluster, I connected this cluster to mongoDB compass.</li>
     <li>Copied this string connection url and paste it in ".env(Environment Variable)" file.</li>
   </ul>
-</ol>
-
-5.To build API for this project, I created the following file structure:
-healthcare-api/
+  <li>To build API for this project, I created the following file structure:</li>
+  <pre>
+    healthcare-api/
 ├── models/
 │   └── Service.js
 ├── routes/
@@ -22,6 +21,11 @@ healthcare-api/
 ├── .env
 ├── app.js
 └── package.json 
+
+  </pre>
+</ol>
+
+5.
 
 ---First I defined the model of the Service.js(models/Service.js)
 ---Second I created the routes for the API(routes/services.js)
