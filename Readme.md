@@ -42,8 +42,8 @@
 
 ---------------------------------------------
 
-<h3 style="color:red">Note:</h3>
-This project is set to use ES modules (ESM), which means that import and export should be used instead of require and module.exports.
-By default, Node.js treats files with the .js extension as ES modules when the "type": "module" field is present in the package.json.
+<h3>Note:</h3>
+<p>This project is set to use ES modules (ESM), which means that import and export should be used instead of require and module.exports.</p>
+<p>By default, Node.js treats files with the .js extension as ES modules when the "type": "module" field is present in the package.json.</p>
 
-When my project execution in terminal was completely ok, I performed the API test such as "GET", "PUT", "DELETE", and "POST" using "Postman".
+<em>When my project execution in terminal was completely ok, I performed the API test such as "GET", "PUT", "DELETE", and "POST" using "Postman".</em>
